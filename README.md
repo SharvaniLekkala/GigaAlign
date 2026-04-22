@@ -2,15 +2,6 @@
 
 GigaAlign is a research project focused on **cross-lingual word alignment** across Indian languages using multilingual transformer models.
 
-This README explains:
-
-- What each notebook is about
-- How to use each notebook
-- Installation requirements
-- Access requirements
-- Hugging Face authentication
-- Required dependencies
-- Recommended workflow
 
 ---
 
@@ -43,16 +34,6 @@ Before running notebooks, make sure you have access to:
 - Jupyter Notebook
 - VS Code Notebook Environment
 
----
-
-# System Requirements
-
-Recommended:
-
-- Python 3.9+
-- RAM: 8GB+
-- GPU (recommended for transformer models)
-- Internet connection for model downloads
 
 ---
 
@@ -140,34 +121,6 @@ login(token="YOUR_HF_TOKEN")
 Create free token here:
 
 https://huggingface.co/settings/tokens
-
----
-
-# Notebook Run Rules
-
-Always follow:
-
-1. Open notebook
-2. Run cells from top to bottom
-3. Install dependencies first
-4. Authenticate HF token if needed
-5. Modify input sentences if required
-6. Execute evaluation section
-
----
-
-# Recommended Notebook Learning Order
-
-1. `Sim_vs_Awe.ipynb`
-2. `Giga_align (1).ipynb`
-3. `HindiTeluguALignment (1).ipynb`
-4. `COMBALIGN (2).ipynb`
-5. `COMBALIGN_final (1).ipynb`
-6. `MuRIL_ground.ipynb`
-7. `muril-attempt.ipynb`
-8. `Telugufocus (1).ipynb`
-9. `hindi_comparisions.ipynb`
-10. `tamil_comparisions.ipynb`
 
 ---
 
@@ -370,17 +323,7 @@ Telugu-specific experiments.
 
 ---
 
-# Notebook Categories
 
-| Category | Notebooks |
-|----------|------------|
-| Core Pipeline | Giga_align, COMBALIGN, COMBALIGN_final |
-| Comparison | Sim_vs_Awe, hindi_comparisions, tamil_comparisions |
-| Evaluation | HindiTeluguALignment |
-| Optimization | MuRIL_ground, muril-attempt |
-| Language-Specific | Telugufocus |
-
----
 
 # Recommended Starting Point
 
@@ -398,7 +341,6 @@ These explain most of the project workflow.
 
 - Large notebooks may not preview properly on GitHub
 - Download locally if preview fails
-- GPU strongly recommended
 - Some notebooks require internet for model downloads
 - Transformer models may take time during first run
 
